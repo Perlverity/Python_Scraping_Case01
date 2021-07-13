@@ -5,7 +5,7 @@ headers = {
 }
 URL = 'http://www.python.org'
 
-r = requests.get(URL, headers=headers, timeout=3, allow_redirects=False)
+r = requests.get(URL, headers=headers, timeout=3)
 
 print(r.url)
 print(r.status_code)
