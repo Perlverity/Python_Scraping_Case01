@@ -6,3 +6,8 @@
 > 収集したHTMLを解析して必要なデータを抽出する
 3. データの保存
 > 抽出したデータを保存する
+
+# github python
+```
+pip install GitPython
+```
