@@ -11,3 +11,11 @@
 ```
 pip install GitPython
 ```
+
+# Library List
+|  Library  | ①データ収集 |  ②データの抽出   |  ③データの保存   |
+|:---:|:---:|:---:|:---:|
+|  Requests   |  ○  |     |     |
+|  BeautifulSoup   |     |   ○  |     |
+|  Selenium   |  ○  |  ○   |     |
+|  Pandas   |     |     |   ○  |
