@@ -19,3 +19,10 @@ pip install GitPython
 |  BeautifulSoup   |     |   ○  |     |
 |  Selenium   |  ○  |  ○   |     |
 |  Pandas   |     |     |   ○  |
+
+# User-Agentの偽装
+```
+headers = {
+    'User-Agent': ''
+}
+```
