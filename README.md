@@ -28,7 +28,8 @@ headers = {
 }
 ```
 
-# Requestsライブラリ(①データの収集 - クローリング)
+# Requestsライブラリ
+# (①データの収集 - クローリング)
 ## サイトへのアクセス方法
 1. requests.get(url):指定したURLにアクセスする
 2. requests.get(url, params=params):パラメータを指定してURLにアクセスする
@@ -39,7 +40,8 @@ headers = {
 2. r.content:レスポンスで受け取ったデータをバイナリ(byte型)で取得する
 3. r.raise_for_status():ステータスコードに応じてエラーを発生させる
 
-# BeautifulSoupライブラリ(②データの解析 - スクレイピング - lxml)
+# BeautifulSoupライブラリ
+# (②データの解析 - スクレイピング - lxml)
 ## HTML解析器
 1. Python標準のHTML解析器(=ライブラリをインストール必要がない)
 2. lxml --> 高速の動作をする。ただし、ライブラリのインストールが必要。
@@ -57,3 +59,8 @@ headers = {
 ## タグから情報を抽出する方法
 1. find().text:指定した要素からテキストを取得する
 2. find().get('href):指定した要素からhrefの値を取得する
+
+# Pandasライブラリ (③データの保存)
+
+## DataFrameを操作してデータの整形/集計/可視化を簡単に実現
+## csv, excelファイルの読み込みと出力(I/O)
