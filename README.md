@@ -26,3 +26,14 @@ headers = {
     'User-Agent': ''
 }
 ```
+
+# Requestsライブラリ
+## サイトへのアクセス方法
+1. requests.get(url):指定したURLにアクセスする
+2. requests.get(url, params=params):パラメータを指定してURLにアクセスする
+3. requests.get(url, headers=headers):ヘッダーを指定してURLにアクセスする
+
+## アクセス結果の確認
+1. r.text:レスポンスで受け取ったデータをテキスト(str型)で取得する
+2. r.content:レスポンスで受け取ったデータをバイナリ(byte型)で取得する
+3. r.raise_for_status():ステータスコードに応じてエラーを発生させる
